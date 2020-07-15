@@ -11,7 +11,7 @@ Application provides word counts.
 2. Install Maven
 
 ### Compile and Run
-mvn clean install
+```mvn clean install```
 
 ```java -jar target/wordCounter-1.0-SNAPSHOT.jar```
 
