@@ -69,7 +69,7 @@ public class WordCounterTest {
     }
 
     @Test
-    public void testCount_WhenGivenAWordMultipleTimes_ThenExpectingValidCount() {
+    public void testCount_WhenGivenAWordAddedMultipleTimes_ThenExpectingValidCount() {
         IntStream.range(0, 10).forEach(i -> wordCounter.add("flower"));
         Assert.assertEquals(10, wordCounter.count("flower"));
         Assert.assertEquals(10, wordCounter.count("flor"));
